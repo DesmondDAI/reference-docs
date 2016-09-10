@@ -36,12 +36,7 @@ echo $SHELL
 
 Via `curl`:
 ```shell
-curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
-```
-
-Via `wget`:
-```shell
-wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -
+curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 ```
 
 <br>
@@ -64,6 +59,8 @@ git clone https://github.com/powerline/fonts.git
 ```
 
 Then run `./install.sh` to install all **Powerline Fonts**.
+
+FYI, the font I like: **Sauce Code Powerline**
 
 <br>
 
