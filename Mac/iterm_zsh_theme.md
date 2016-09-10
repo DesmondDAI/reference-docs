@@ -1,6 +1,6 @@
-## iTerm2 + zsh + Oh My Zsh + Solarized Dark theme
+# iTerm2 + zsh + Oh My Zsh + Solarized Dark theme
 
-#### Install iTerm2
+### Install iTerm2
 
 [download -->](https://www.iterm2.com/)
 
@@ -8,54 +8,54 @@
 
 <br>
 
-#### Install zsh
+### Install zsh
 
-- Use [homebrew](http://brew.sh/):
+Use [homebrew](http://brew.sh/):
 ```shell
 brew install zsh
 ```
 
-- Show all available shells:
+Show all available shells:
 ```shell
 cat /etc/shells
 ```
 
-- Change default shell to **zsh**:
+Change default shell to **zsh**:
 ```shell
 chsh -s /bin/zsh
 ```
 
-- Reopen **iTerm** and check recent shell:
+Reopen **iTerm** and check recent shell:
 ```shell
 echo $SHELL
 ```
 
 <br>
 
-#### Install Oh My Zsh
+### Install Oh My Zsh
 
-- Via `curl`:
+Via `curl`:
 ```shell
 curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 ```
 
-- Via `wget`:
+Via `wget`:
 ```shell
 wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -
 ```
 
 <br>
 
-#### Change theme for zsh
+### Change theme for zsh
 
-- Open `~/.zshrc` file, change following config to your favourite theme:
+Open `~/.zshrc` file, change following config to your favourite theme:
 ```shell
 ZSH_THEME="agnoster"
 ```
 
 <br>
 
-#### Install patched font
+### Install patched font
 
 Since **zsh** adopts [powerline](https://github.com/powerline/powerline) plugin as status line
 and prompts customization, pre-patched and adjusted fonts are required. Clone the repo:
@@ -67,7 +67,7 @@ Then run `./install.sh` to install all **Powerline Fonts**.
 
 <br>
 
-#### Remove "user@computer" prompt
+### Remove "user@computer" prompt
 
 `"user@computer"` occupies so much space in line. If you use **agnoster** theme, you
 should find `prompt_context() {...}` in **agnoster.zsh-theme**:
@@ -90,7 +90,7 @@ Done. <br>
 
 <br>
 
-#### References:
+### References:
 
 - [More external zsh themes](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes)
 - [More about agnoster theme](https://gist.github.com/agnoster/3712874)
